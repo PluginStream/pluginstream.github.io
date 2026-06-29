@@ -1,18 +1,18 @@
 <p align="center">
-  <img src="https://raw.githubusercontent.com/am-abdulmueed/pluginstream/refs/heads/main/assets/Echo-new.png" alt="Echo Music Logo" width="140">
+  <img src="https://pluginstream.pages.dev/assets/pluginstream.png" alt="PluginStream Logo" width="140">
 </p>
 
-<h1 align="center">Echo Music Website</h1>
+<h1 align="center">PluginStream Website</h1>
 
-<p align="center">The official website for <strong>Echo Music</strong> - a free, ad-free music streaming app for Android.</p>
+<p align="center">The official website for <strong>PluginStream</strong> - a free, ad-free music streaming app for Android.</p>
 
 ---
 
 ## Overview
 
-This repository contains the source code for the Echo Music official website. Echo Music is a free, open-source music streaming application for Android that provides an ad-free experience by streaming music directly from YouTube Music.
+This repository contains the source code for the PluginStream official website. PluginStream is a free, open-source music streaming application for Android that provides an ad-free experience by streaming music directly from YouTube Music.
 
-The website serves as the official landing page for the Echo Music application, providing:
+The website serves as the official landing page for the PluginStream application, providing:
 - Feature documentation and app information
 - Download links and installation guides
 - FAQ and support resources
@@ -23,15 +23,33 @@ The website serves as the official landing page for the Echo Music application, 
 ## Project Structure
 
 ```
-Echo-Music-Site/
-├── index.html              # Main landing page
-├── privacy.html            # Privacy Policy
-├── terms.html              # Terms of Service
-├── robots.txt              # Robots configuration
-├── sitemap.xml             # Sitemap
-├── README.md               # This file
-├── graph.png               # Open Graph image
-└── assets/                 # Static assets (images, icons)
+Pluginstream.github.io/
+├── .github/                 # GitHub workflows & CI/CD automation
+├── assets/                  # Static assets (CSS, JS, images, icons)
+├── 404.html                 # Custom 404 Error page
+├── ads.html                 # Advertisements policy or placement page
+├── blog.html                # Blog updates & articles
+├── contact.html             # Contact Us page
+├── github.html              # GitHub project info / integration page
+├── graph.png                # Open Graph / preview image
+├── how-to-install.html      # Installation guide for users
+├── index.html               # Main landing page (Home)
+├── phone.html               # Mobile views / application page
+├── plugins.html             # Plugins showcase page
+├── plugins.json             # Core data file for available plugins
+├── portfolio.html           # Project portfolio showcase
+├── privacy.html             # Privacy Policy page
+├── psredirect.html          # Deep-link redirection page for PluginStream App (Opens shared movies directly inside the app)
+├── README.md                # Project documentation
+├── robots.txt               # SEO Search Engine Crawler directives
+├── rss.xml                  # RSS Feed for updates & blogs
+├── sitemap.xml              # SEO Sitemap for search indexing
+├── support.html             # Help & Support / FAQ page
+├── sw.js                    # Service Worker (PWA implementation & website monetization configuration)
+├── telegram.html            # Telegram channel / community landing page
+├── terms.html               # Terms of Service page
+├── todo.md                  # Development roadmap and pending tasks
+└── tv.html                  # TV interface / large screen layout page
 ```
 
 ---
@@ -46,8 +64,8 @@ Echo-Music-Site/
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/am-abdulmueed/pluginstream-Site.git
-   cd Echo-Music-Site
+   git clone https://github.com/am-abdulmueed/pluginstream.github.io.git
+   cd pluginstream.github.io
    ```
 
 2. Run locally:
@@ -147,25 +165,26 @@ This website is designed with privacy as a core principle:
 
 This project is licensed under the [MIT License](LICENSE).
 
-Copyright (c) 2024 Echo Music
+Copyright (c) 2026 PluginStream
 
 ---
 
 ## Support
 
-- **Issues**: [GitHub Issues](https://github.com/am-abdulmueed/pluginstream-Site/issues)
-- **Discussions**: [GitHub Discussions](https://github.com/am-abdulmueed/pluginstream-Site/discussions)
-- **Discord**: [Echo Music Discord](https://github.com/am-abdulmueed/pluginstream)
+- **Issues**: [GitHub Issues](https://github.com/am-abdulmueed/pluginstream/issues)
+- **Discussions**: [GitHub Discussions](https://github.com/am-abdulmueed/pluginstream/discussions)
+- **Telegram**: [PluginStream Telegram](https://t.me/pluginstreamofficial)
 
 ---
 
 ## Resources
 
-- [Echo Music App Repository](https://github.com/EchoMusicApp)
-- [Official Website](https://echomusic.fun)
-- [Privacy Policy](https://echomusic.fun/privacy.html)
-- [Terms of Service](https://echomusic.fun/terms.html)
+- [PluginStream App Repository](https://github.com/am-abdulmueed/pluginstream)
+- [Official Website](https://pluginstream.pages.dev)
+- [Privacy Policy](https://pluginstream.pages.dev/privacy.html)
+- [Terms of Service](https://pluginstream.pages.dev/terms.html)
 
 ---
-
-*Built for the Echo Music community*
+<p align="center">
+<strong>Built for the PluginStream community</strong> 
+</p>
